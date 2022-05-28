@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="border">
+        <div id="heading">Sign Up</div>
+    <form action="backend.php">
+        <br>
+        <div id="name">
+            Name (नाम) : <input type="text" name="myname" required>
+        </div>
+        <br>
+        <br>
+        <div id="phonenumber">
+            PHONE NUMBER (फ़ोन नंबर) : <input value="+91" type="phonenumber" name="phonenumber" title="Error Message(Your phone number should be of 10 digits and should contain numbers)" pattern="[1-9]{1}[0-9]{9}" required>
+        </div>
+        <br> 
+        <br> 
+        <div id="service">
+            <label for="Service"> Service (सर्विस):</label>
+            <select name="Services" id="Service" required>
+                <option value="fruits">Fruits(फल)</option>
+                <option value="ind">Vegetables(सब्जियाँ)</option>
+                <option value="swf">Snack Items</option> 
+                <option value="hnd">Fabrics(कपड़े)</option>
+                <option value="uten">Utensils(बर्तन)</option>
+                <option value="pots">Earthen pots(मिट्टी के पात्र)</option>
+                <option value="uten">Plant saplings(पौधे)</option>
+            </select>
+        </div>
+        <br> 
+        <br> 
+        <div id="area">
+            Area (क्षेत्र) : <input type="area" name="area" required>
+        </div>
+        <br>
+        <br>
+        <div id="button">
+            <input id="submit" type="submit" value="Submit now(जमा करे)">&nbsp; <input id="reset" type="reset" value="Reset now(रीसेट करें)" >
+            <br>
+        </div>
+    </form>
+    </div>
+
+</body>
+</html>
