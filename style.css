@@ -41,7 +41,7 @@ body{
 /* -------------------------nav bar---------------------------- */
 
 .navbar{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     padding:10px;
     /* position: static; */
     text-align: center;
@@ -75,7 +75,12 @@ body{
 .navbar li a:hover{
     color:#70DEF1;
     transition: 0.5s;
+    
+}
 
+.navbar li h3{
+    font-family: 'poppins',sans-serif;
+    font-weight:100;
 }
 
 #body-header h3{
@@ -138,7 +143,7 @@ body{
     color:white;
     font-family:'poppins',sans-serif;
     font-weight:200;
-    margin-left:37%;
+    margin-left:28%;
     font-size:700%;
     
 }
@@ -191,6 +196,10 @@ body{
 
 }
 
+/* #About p::first-word{
+    font-weight: 500;
+} */
+
 #About hr{
     width: 40vw;
     margin-left:4vh;
@@ -210,7 +219,8 @@ body{
 }
 
 #carocel{
-    margin-top:-35% ;
+    margin-top:-51% ;
+    margin-bottom:1%;
 }
 
 #carocel ul li{
@@ -225,7 +235,7 @@ body{
     /* margin-top:-10px; */
 }
 
-#corocel ul li img:hover{
+#carocel ul li img:hover {
     opacity:1;
 }
 
@@ -238,12 +248,12 @@ body{
 }
 
 #Contact h3{
-    margin-left:45%;
+    margin-left:42%;
     font-family:'poppins',sans-serif;
     font-weight:400;
     color:#70def1;
     font-size:30px;
-    margin-bottom:10%;
+    margin-bottom:7%;
 
 }
 
@@ -251,8 +261,18 @@ body{
     font-family:'poppins',sans-serif;
     font-weight:400;
     font-size:1.1rem;
-    color:#FDF5BF;
+    color:white;
+    margin-bottom:3vh;
     margin-left:5%;
 
 }
 
+#Contact p{
+    color:white;
+    /* position:fixed; */
+    /* background-color: black; */
+    font-family:'poppins',sans-serif;
+    font-weight:200;
+    text-align: center;
+    margin-top:8vh;
+}
