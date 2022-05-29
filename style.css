@@ -186,6 +186,12 @@ body{
 
 /* -------about------  */
 
+#About{
+
+    height:75vh;
+}
+
+
 #About h2{
     color:#70DEF1;
     font-family:'poppins',sans-serif;
