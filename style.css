@@ -251,6 +251,7 @@ body{
 #Contact{
     background-image: linear-gradient(to bottom right,#5a7bb58c, #70def18c,#5a7bb58c );
     height: 50vh;
+    margin-top:50vh;
 }
 
 #Contact h3{
